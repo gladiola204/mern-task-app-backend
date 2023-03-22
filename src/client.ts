@@ -1,6 +1,6 @@
 import { MongoClient } from "mongodb";
 
-const url = 'mongodb://localhost:27017';
+const url = 'mongodb+srv://gladiola204:D4NelDGiEDlnmOwM@tasks.e098ds7.mongodb.net/test';
 const dbName = process.env.DBNAME || 'test-todos';
 
 let client: MongoClient | any;
