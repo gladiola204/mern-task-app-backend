@@ -1,0 +1,6 @@
+{
+    "env": {
+        "DBNAME": "Awesome-todos",
+        "PORT": 80
+    }
+}
