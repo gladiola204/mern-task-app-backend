@@ -7,8 +7,7 @@ export const app = express();
 app.use(express.json());
 app.use(express.urlencoded());
 app.use(cors({
-    origin: ['http://localhost:3000', "https://mern-task-app-68dr.onrender.com/"],
-    methods: ['GET', 'POST', 'PUT', 'DELETE', ],
+    origin: ['http://localhost:3000', "https://mern-task-app-68dr.onrender.com"],
 }))
 
 app.set('x-powered-by', false); 
