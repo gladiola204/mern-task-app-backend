@@ -11,7 +11,7 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.drop = exports.getDb = exports.disconnect = exports.connect = void 0;
 const mongodb_1 = require("mongodb");
-const url = 'mongodb://localhost:27017';
+const url = 'mongodb+srv://gladiola204:D4NelDGiEDlnmOwM@tasks.e098ds7.mongodb.net/test';
 const dbName = process.env.DBNAME || 'test-todos';
 let client;
 function resetClient() {

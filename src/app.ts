@@ -4,11 +4,11 @@ import { add, change, deleteTask, list, toggle } from './todo';
 
 export const app = express();
 
+app.use(cors({
+    origin: ['http://localhost:3000',"https://mern-task-app-68dr.onrender.com", "http://mern-task-app-68dr.onrender.com"],
+}))
 app.use(express.json());
 app.use(express.urlencoded());
-app.use(cors({
-    origin: "https://mern-task-app-68dr.onrender.com",
-}))
 
 app.set('x-powered-by', false); 
 
